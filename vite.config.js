@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/CS2/',  // ví dụ repo tên "cs2-fresh" thì base: '/cs2-fresh/'
   plugins: [react()],
 })
